@@ -2,6 +2,7 @@ package com.security.demo.config;
 
 import com.security.demo.jwt.JwtAuthenticationFilter;
 import com.security.demo.jwt.JwtEntryPoint;
+import com.security.demo.service.CustomUserDetailService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
